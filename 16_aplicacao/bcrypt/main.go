@@ -9,7 +9,7 @@ import (
 func main() {
 
 	senha := "09Agosto1979"
-	senhaerrada := "09Agosto1989"
+	senhaerrada := "13Marco1983"
 
 	bs, err := bcrypt.GenerateFromPassword([]byte(senha), 10)
 	if err != nil {
